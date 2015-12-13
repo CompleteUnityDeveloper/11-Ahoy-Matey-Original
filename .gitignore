@@ -6,6 +6,7 @@ Obj/
 UnityGenerated/
 Library/
 Assets/AssetStoreTools*
+Builds
 
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
@@ -30,5 +31,5 @@ ExportedObj/
 .Spotlight-V100
 .Trashes
 Icon?
-ehthumbs.db
+thumbs.db
 Thumbs.db
