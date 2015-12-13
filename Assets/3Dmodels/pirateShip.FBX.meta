@@ -1,0 +1,537 @@
+fileFormatVersion: 2
+guid: 7a563848e350aa4479901edc2eceb14b
+timeCreated: 1445638885
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: boat
+    100002: Bone001
+    100004: Bone002
+    100006: Bone003
+    100008: Bone005
+    100010: Bone006
+    100012: Bone007
+    100014: Bone008
+    100016: Bone010
+    100018: Bone011
+    100020: Bone012
+    100022: Bone013
+    100024: Bone014
+    100026: Bone015
+    100028: Bone016
+    100030: Bone017
+    100032: Bone018
+    100034: Bone019
+    100036: Bone020
+    100038: //RootNode
+    100040: Ropes
+    100042: Sails
+    100044: BackMast
+    100046: BoatCenter
+    100048: CenterMast
+    100050: Flag
+    100052: FrontMast
+    100054: Sail001
+    100056: Sail002
+    100058: Sail003
+    100060: Sail004
+    100062: Sail005
+    100064: Sail006
+    100066: Tip
+    400000: boat
+    400002: Bone001
+    400004: Bone002
+    400006: Bone003
+    400008: Bone005
+    400010: Bone006
+    400012: Bone007
+    400014: Bone008
+    400016: Bone010
+    400018: Bone011
+    400020: Bone012
+    400022: Bone013
+    400024: Bone014
+    400026: Bone015
+    400028: Bone016
+    400030: Bone017
+    400032: Bone018
+    400034: Bone019
+    400036: Bone020
+    400038: //RootNode
+    400040: Ropes
+    400042: Sails
+    400044: BackMast
+    400046: BoatCenter
+    400048: CenterMast
+    400050: Flag
+    400052: FrontMast
+    400054: Sail001
+    400056: Sail002
+    400058: Sail003
+    400060: Sail004
+    400062: Sail005
+    400064: Sail006
+    400066: Tip
+    2300000: Flag
+    3300000: Flag
+    4300000: boat
+    4300002: Ropes
+    4300004: Sails
+    4300006: Flag
+    7400000: sail
+    7400002: Break
+    7400004: Anchored
+    7400006: Underway
+    7400008: Disabled
+    7400010: Sinking
+    7400012: UnderWay
+    7400014: Anchored
+    7400016: PullUpSails
+    7400018: Sink
+    9500000: //RootNode
+    13700000: boat
+    13700002: Ropes
+    13700004: Sails
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: UnderWay
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: boat
+        weight: 1
+      - path: BoatCenter
+        weight: 1
+      - path: BoatCenter/Bone002
+        weight: 1
+      - path: BoatCenter/Bone002/FrontMast
+        weight: 1
+      - path: BoatCenter/Bone002/FrontMast/Sail002
+        weight: 1
+      - path: BoatCenter/Bone002/FrontMast/Sail003
+        weight: 1
+      - path: BoatCenter/Bone005
+        weight: 1
+      - path: BoatCenter/Bone005/CenterMast
+        weight: 1
+      - path: BoatCenter/Bone005/CenterMast/Sail004
+        weight: 1
+      - path: BoatCenter/Bone005/CenterMast/Sail005
+        weight: 1
+      - path: BoatCenter/Bone007
+        weight: 1
+      - path: BoatCenter/Bone007/BackMast
+        weight: 1
+      - path: BoatCenter/Bone007/BackMast/Sail006
+        weight: 1
+      - path: BoatCenter/Bone010
+        weight: 1
+      - path: BoatCenter/Bone010/Tip
+        weight: 1
+      - path: BoatCenter/Bone010/Tip/Sail001
+        weight: 1
+      - path: Ropes
+        weight: 1
+      - path: Sails
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Anchored
+      takeName: Take 001
+      firstFrame: 260
+      lastFrame: 420
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: boat
+        weight: 1
+      - path: BoatCenter
+        weight: 1
+      - path: BoatCenter/Bone002
+        weight: 1
+      - path: BoatCenter/Bone002/FrontMast
+        weight: 1
+      - path: BoatCenter/Bone002/FrontMast/Sail002
+        weight: 1
+      - path: BoatCenter/Bone002/FrontMast/Sail003
+        weight: 1
+      - path: BoatCenter/Bone005
+        weight: 1
+      - path: BoatCenter/Bone005/CenterMast
+        weight: 1
+      - path: BoatCenter/Bone005/CenterMast/Sail004
+        weight: 1
+      - path: BoatCenter/Bone005/CenterMast/Sail005
+        weight: 1
+      - path: BoatCenter/Bone007
+        weight: 1
+      - path: BoatCenter/Bone007/BackMast
+        weight: 1
+      - path: BoatCenter/Bone007/BackMast/Sail006
+        weight: 1
+      - path: BoatCenter/Bone010
+        weight: 1
+      - path: BoatCenter/Bone010/Tip
+        weight: 1
+      - path: BoatCenter/Bone010/Tip/Sail001
+        weight: 1
+      - path: Ropes
+        weight: 1
+      - path: Sails
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: PullUpSails
+      takeName: Take 001
+      firstFrame: 220
+      lastFrame: 320
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: boat
+        weight: 1
+      - path: BoatCenter
+        weight: 1
+      - path: BoatCenter/Bone002
+        weight: 1
+      - path: BoatCenter/Bone002/FrontMast
+        weight: 1
+      - path: BoatCenter/Bone002/FrontMast/Sail002
+        weight: 1
+      - path: BoatCenter/Bone002/FrontMast/Sail003
+        weight: 1
+      - path: BoatCenter/Bone005
+        weight: 1
+      - path: BoatCenter/Bone005/CenterMast
+        weight: 1
+      - path: BoatCenter/Bone005/CenterMast/Sail004
+        weight: 1
+      - path: BoatCenter/Bone005/CenterMast/Sail005
+        weight: 1
+      - path: BoatCenter/Bone007
+        weight: 1
+      - path: BoatCenter/Bone007/BackMast
+        weight: 1
+      - path: BoatCenter/Bone007/BackMast/Sail006
+        weight: 1
+      - path: BoatCenter/Bone010
+        weight: 1
+      - path: BoatCenter/Bone010/Tip
+        weight: 1
+      - path: BoatCenter/Bone010/Tip/Sail001
+        weight: 1
+      - path: Ropes
+        weight: 1
+      - path: Sails
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Break
+      takeName: Take 001
+      firstFrame: 420
+      lastFrame: 470
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: boat
+        weight: 1
+      - path: BoatCenter
+        weight: 1
+      - path: BoatCenter/Bone002
+        weight: 1
+      - path: BoatCenter/Bone002/FrontMast
+        weight: 1
+      - path: BoatCenter/Bone002/FrontMast/Sail002
+        weight: 1
+      - path: BoatCenter/Bone002/FrontMast/Sail003
+        weight: 1
+      - path: BoatCenter/Bone005
+        weight: 1
+      - path: BoatCenter/Bone005/CenterMast
+        weight: 1
+      - path: BoatCenter/Bone005/CenterMast/Sail004
+        weight: 1
+      - path: BoatCenter/Bone005/CenterMast/Sail005
+        weight: 1
+      - path: BoatCenter/Bone007
+        weight: 1
+      - path: BoatCenter/Bone007/BackMast
+        weight: 1
+      - path: BoatCenter/Bone007/BackMast/Sail006
+        weight: 1
+      - path: BoatCenter/Bone010
+        weight: 1
+      - path: BoatCenter/Bone010/Tip
+        weight: 1
+      - path: BoatCenter/Bone010/Tip/Sail001
+        weight: 1
+      - path: Ropes
+        weight: 1
+      - path: Sails
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Disabled
+      takeName: Take 001
+      firstFrame: 500
+      lastFrame: 600
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: boat
+        weight: 1
+      - path: BoatCenter
+        weight: 1
+      - path: BoatCenter/Bone002
+        weight: 1
+      - path: BoatCenter/Bone002/FrontMast
+        weight: 1
+      - path: BoatCenter/Bone002/FrontMast/Sail002
+        weight: 1
+      - path: BoatCenter/Bone002/FrontMast/Sail003
+        weight: 1
+      - path: BoatCenter/Bone005
+        weight: 1
+      - path: BoatCenter/Bone005/CenterMast
+        weight: 1
+      - path: BoatCenter/Bone005/CenterMast/Sail004
+        weight: 1
+      - path: BoatCenter/Bone005/CenterMast/Sail005
+        weight: 1
+      - path: BoatCenter/Bone007
+        weight: 1
+      - path: BoatCenter/Bone007/BackMast
+        weight: 1
+      - path: BoatCenter/Bone007/BackMast/Sail006
+        weight: 1
+      - path: BoatCenter/Bone010
+        weight: 1
+      - path: BoatCenter/Bone010/Tip
+        weight: 1
+      - path: BoatCenter/Bone010/Tip/Sail001
+        weight: 1
+      - path: Ropes
+        weight: 1
+      - path: Sails
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Sink
+      takeName: Take 001
+      firstFrame: 750
+      lastFrame: 900
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: boat
+        weight: 1
+      - path: BoatCenter
+        weight: 1
+      - path: BoatCenter/Bone002
+        weight: 1
+      - path: BoatCenter/Bone002/FrontMast
+        weight: 1
+      - path: BoatCenter/Bone002/FrontMast/Sail002
+        weight: 1
+      - path: BoatCenter/Bone002/FrontMast/Sail003
+        weight: 1
+      - path: BoatCenter/Bone005
+        weight: 1
+      - path: BoatCenter/Bone005/CenterMast
+        weight: 1
+      - path: BoatCenter/Bone005/CenterMast/Sail004
+        weight: 1
+      - path: BoatCenter/Bone005/CenterMast/Sail005
+        weight: 1
+      - path: BoatCenter/Bone007
+        weight: 1
+      - path: BoatCenter/Bone007/BackMast
+        weight: 1
+      - path: BoatCenter/Bone007/BackMast/Sail006
+        weight: 1
+      - path: BoatCenter/Bone010
+        weight: 1
+      - path: BoatCenter/Bone010/Tip
+        weight: 1
+      - path: BoatCenter/Bone010/Tip/Sail001
+        weight: 1
+      - path: Ropes
+        weight: 1
+      - path: Sails
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: BoatCenter
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
