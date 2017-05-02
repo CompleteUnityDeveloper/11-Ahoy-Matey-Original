@@ -110,6 +110,3 @@
 + Keep testing, keep asking, keep learning.
 + I’m committed to maintaining this course.
 + That includes adding to this section if needed.
-
----
-Find out more about our [Complete Unity Developer Course](https://www.udemy.com/unitycourse?couponCode=GitHubDiscount).
